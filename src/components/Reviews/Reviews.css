@@ -1,0 +1,37 @@
+.reviewd-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 200px;
+}
+.coment {
+    background-image: url(../../assets/Coment1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 192px;
+    width: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 16px;
+    
+}
+
+.coment {
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    /* line-height: 1.6; */
+}
+.people{
+    margin: auto;
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+
+}

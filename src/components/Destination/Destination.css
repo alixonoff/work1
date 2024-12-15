@@ -1,0 +1,169 @@
+/* Umumiy stil */
+.destination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.destion-text{
+  display: flex;
+  flex-direction: column;
+  width: 780px;
+  margin: auto;
+}
+.destion-text > p {
+  font-family: 'Work Sans', serif;
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+}
+.destion-text > h3 {
+  font-family:  "Water Brush", cursive;;
+  display: flex;
+  justify-content: center;
+}
+.destion-text > span{
+  text-align: center;
+}
+.img-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.img-right-top {
+  display: flex;
+  gap: 20px;
+}
+.imgs-card {
+  display: flex;
+  gap: 20px;
+}
+.img-contanier {
+  position: relative; 
+  width: 100%;
+  height: 100%;
+}
+.img-contanier img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.img-contanier::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
+}
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2; 
+  color: white; 
+  font-family: 'Work Sans', serif;
+}
+.overlay-content h3 {
+  font-family: 'Water Brush', serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.overlay-content button {
+  padding: 10px 20px;
+  border: none;
+  background: linear-gradient(#CD1A40, #FF803C);
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.bottom {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bottom > button {
+  background: linear-gradient(#CD1A40, #FF803C);
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Media qoidalar */
+@media (max-width: 1200px) {
+  .destion-text > p {
+      font-size: 48px;
+  }
+
+  .overlay-content h3 {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .destion-text > p {
+      font-size: 40px;
+  }
+
+  .overlay-content h3 {
+      font-size: 18px;
+  }
+
+  .img-right-top {
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  .imgs-card {
+      flex-direction: column;
+      gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .destion-text > p {
+      font-size: 32px;
+  }
+
+  .overlay-content h3 {
+      font-size: 16px;
+  }
+
+  .img-right {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .img-right-top {
+      gap: 10px;
+  }
+
+  .imgs-card {
+      gap: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .destion-text > p {
+      font-size: 24px;
+  }
+
+  .overlay-content h3 {
+      font-size: 14px;
+  }
+
+  .overlay-content button {
+      font-size: 14px;
+      padding: 8px 16px;
+  }
+}

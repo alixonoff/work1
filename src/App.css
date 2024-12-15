@@ -1,0 +1,34 @@
+.conatiner{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 0px;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Imperial+Script&family=Water+Brush&display=swap');
+.conatiner{
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 px;
+  justify-content: center;
+  /* text-align: center; */
+
+}
+@media only screen and (max-width: 600px) {
+  .conatiner{
+    max-width: 600px;
+    margin:  auto;
+    padding: 0;
+    justify-content: center;
+    /* text-align: center; */
+  
+  }
+}

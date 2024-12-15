@@ -1,0 +1,17 @@
+.destion-text{
+    text-align: center; 
+}
+.pages-cart{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.pcard{
+    border-radius: 16px;
+    background: #fff9f0;
+}
+.textp{
+    display: flex;
+}

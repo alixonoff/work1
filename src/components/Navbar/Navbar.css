@@ -1,0 +1,82 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family:  "Water Brush", cursive;
+    font-size: 46px;
+    color: #EE1C45;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+    overflow-x: auto;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.buttons > button {
+    padding: 15px;
+    width: 100px;
+    height: 48px;
+    background: linear-gradient(#CD1A40, #FF803C);
+    border-radius: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.buttons> button:active{
+    transform: scale(1.1);
+}
+.icons>p{
+    display: none;
+    color: yellow;
+    width: 30px;
+    height: 30px;
+}
+/* MEDIA */
+@media only screen and (max-width: 600px) {
+    .conatiner{
+        max-width: 600px;
+    }
+    .icons > p{
+        display: block;
+    }
+    .buttons{
+        display: none;
+    }
+    ul,li{
+        display: none;
+    }
+    ul::-webkit-scrollbar {
+        height: 8px;
+      }
+    
+      ul::-webkit-scrollbar-thumb {
+        background-color: green;
+        border-radius: 10px;
+      }
+    .logo{
+        font-size: 13px;
+    }
+    .buttons > button{
+        padding: 5px;
+    width: 65px;
+    height: 38px;
+    }
+  }

@@ -1,0 +1,126 @@
+.banner{
+    background-image: url(../../assets/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: contain;
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+.middle {
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.middle-btn{
+    width: 50px;
+    height: 50px;
+}
+.middle-first {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.middle-first h4 {
+    font-family: 'Imperial Script', cursive;
+    font-size: 38px;
+}
+
+.middle-first h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.middle-item {
+    background: rgba(244, 238, 238, 0.263);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 480px;
+    height: 56px;
+    padding: 20px;
+    border-radius: 16px;
+    gap: 10px;
+}
+
+.middle-item-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons img {
+    height: 24px;
+    width: 24px;
+}
+
+.icons-text {
+    color: white;
+}
+
+.middle-item > button {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(#CD1A40, #FF803C);
+    border-radius: 18px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.middle-item > button img {
+    width: 20px;
+    height: 20px;
+}
+.span{
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+.second{
+    padding-top: 120px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+.second-text>
+.second-text > p{
+    font-size: 64px;
+}
+
+/* MEDIA */
+@media (max-width: 600px ) {
+    .banner{
+        width: 100vh;
+        height: 100vh;
+    }
+    .middle-first{
+        width: 300px;
+    }
+    .middle-first h4 {
+        font-size: 24px;
+    }
+    .middle-first p{
+        width: 270px;
+    }
+    .middle-first h2 {
+        font-size: 20px;
+    }
+
+    .middle-item {
+        padding: 5px;
+        width: 300px;
+    }
+
+    .second-text > p {
+        font-size: 28px;
+    }
+}

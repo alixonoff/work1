@@ -1,0 +1,31 @@
+.destion-text>span{
+    text-align: center;
+    /* width: 780px; */
+    /* height: 237px; */
+    justify-content: center;
+
+}
+.activity-cart{
+    padding: 10px;
+    text-align: center;
+    background-color: #fff9f0;
+    width: 378px;
+    height: 412px;
+    border-radius: 16px;
+    padding:30px 0px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+.activity-carts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.activity-cart:hover{
+    background: linear-gradient(#CD1A40, #FF803C);
+}
